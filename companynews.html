@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7,9,10,11" > 
+	<title>Ventas | Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- mainScripts -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+
+	<!-- mainScripts -->
+
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- css -->
+
+
+	<!-- mainScripts -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+
+	<script type="text/javascript" src="js/datatables.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+
+	<!-- mainScripts -->
+	<style>
+		ul,
+		li {
+			list-style: initial !important;
+		}
+		.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+			color: white;
+			background-color: rgb(23, 98, 158);
+		}
+		.hide{
+			display: none;
+		}
+		.show{
+			display: block;
+		}
+		table{
+			width:100%
+		}
+		.newsMain:hover{
+			border: solid 1px #d6d3d3;
+		}
+		.newsMain{
+			padding: 10px;
+			cursor: pointer;
+		}
+		.date{
+			font-weight: 600 !important;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- mega_menu -->
+	<div class="mega_menu position_absolute pos_top pos_left pos_right p-b-lg">
+		<div class="container">
+
+			<!-- each row contains aside and detail navs -->
+			<div class="row">
+
+				<!-- aside_nav -->
+				<div class="col-md-4 col-sm-6 col-xs-12 aside_nav">
+
+					<ul class="main_nav m-b-lg width">
+						<li>
+							<a href="#">Newsroom</a>
+						</li>
+						<li>
+							<a href="#">Employee Resource Center</a>
+						</li>
+						<li>
+							<a href="#">Departments</a>
+						</li>
+						<li>
+							<a href="#">Career Opportunities</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- aside_nav -->
+
+				<!-- detail_nav -->
+				<div class="col-md-8 col-sm-6 col-xs-12 detail_nav">
+					<div class="row">
+
+						<div class="col-md-12 col-xs-12 col-sm-12 m-b-lg">
+							<h5>DEPARTMENTS</h5>
+						</div>
+
+						<div class="col-md-12 col-xs-12 col-sm-12 m-t bordered_nav_heading">
+							<h4>Ventas</h4>
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<ul class="linear_nav width display_inline_block">
+										<li>
+											<a href="">Acquisitions</a>
+										</li>
+										<li>
+											<a href="">Accounting</a>
+										</li>
+										<li>
+											<a href="">Human Resources</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<ul class="linear_nav width display_inline_block">
+										<li>
+											<a href="">IT</a>
+										</li>
+										<li>
+											<a href="">Sustainability</a>
+										</li>
+										<li>
+											<a href="">Marketing & Communications</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- detail_nav -->
+
+
+			</div>
+			<!-- each row contains aside and detail navs -->
+
+
+
+			<!-- clearfix -->
+			<div class="clearfix m-t m-b width"></div>
+			<!-- clearfix -->
+
+
+
+			<!-- each row contains aside and detail navs -->
+			<div class="row">
+
+				<!-- aside_nav -->
+				<div class="col-md-4 col-sm-6 col-xs-12 aside_nav">
+					<h5>COMPANY LINKS</h5>
+					<ul class="linear_nav m-t-lg width">
+						<li>
+							<a href="#">Citrix</a>
+						</li>
+						<li>
+							<a href="#">Concur (Travel + Expense)</a>
+						</li>
+						<li>
+							<a href="#">Lillibridge</a>
+						</li>
+						<li>
+							<a href="#">Service Desk</a>
+						</li>
+						<li>
+							<a href="#">Taleo ATS</a>
+						</li>
+						<li>
+							<a href="#">VAMS</a>
+						</li>
+						<li>
+							<a href="#">Ventas</a>
+						</li>
+						<li>
+							<a href="#">Ventas Webmail</a>
+						</li>
+						
+						<li>
+							<a href="#">Workday</a>
+						</li>
+						<li>
+							<a href="#">Yardi</a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- aside_nav -->
+
+				<!-- detail_nav -->
+				<div class="col-md-8 col-sm-6 col-xs-12 detail_nav">
+					<div class="row">
+
+
+						<div class="col-md-12 col-xs-12 col-sm-12 bordered_nav_heading">
+							<h4>Lillibridge</h4>
+						</div>
+
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<ul class="linear_nav width display_inline_block">
+										<li>
+											<a href="">Advisory</a>
+										</li>
+										<li>
+											<a href="">Asset Management</a>
+										</li>
+										<li>
+											<a href="">Facilities Development</a>
+										</li>
+										<li>
+											<a href="">Financial Analysts</a>
+										</li>
+										<li>
+											<a href="">Financial Reporting</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<ul class="linear_nav width display_inline_block">
+										<li>
+											<a href="">Lease Accounting</a>
+										</li>
+										<li>
+											<a href="">Marketing and Communications</a>
+										</li>
+										<li>
+											<a href="">Property Accounting</a>
+										</li>
+										<li>
+											<a href="">Property Management and Leasing</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- detail_nav -->
+
+
+			</div>
+			<!-- each row contains aside and detail navs -->
+
+
+
+
+		</div>
+	</div>
+	<!-- mega_menu -->
+
+	<!-- wrapper -->
+	<div class="wrapper width">
+
+		<header>
+
+			<div class="position_relative mobileSearch hidden-md hidden-sm hidden-lg">
+				<input type="text" name="search" id="mobileSearchView" onkeyup="$('#desktopSearchView').val($(this).val());">
+
+				<div class="cross position_absolute pos_top pos_right pos_bottom">
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</div>
+			</div>
+
+			<div class="header_top p-t-md">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-6 col-sm-6 col-xs-8 none display_inline_block vertical_align_bottom logo p-t-md">
+							<a href="index.html">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+
+
+						<div class="col-md-6 col-sm-6 col-xs-4 search_section none display_inline_block vertical_align_top search text-right">
+
+							<div class="search_icon display_inline_block vertical_align_bottom ">
+								<div class="position_relative display_inline_block toSearch">
+									<input onkeyup="$('#mobileSearchView').val($(this).val());" id="desktopSearchView" type="text" name="search">
+
+									<div class="cross position_absolute pos_top pos_right pos_bottom">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</div>
+								</div>
+								<a id="searchClick">
+									<img src="images/search_icon.png">
+								</a>
+							</div>
+
+
+
+
+							<div class="nav_icon display_inline_block vertical_align_bottom m-l">
+								<div id="megaClik">
+									<p>MENU</p>
+									<div class="nav_bar">
+										<img src="images/nav_icon.png">
+									</div>
+									<div class="cross_icon">
+										<img src="images/nav_cross.png">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- newsHeader -->
+			<div class="newsHeader ">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+							<p>
+								<span class="stock"> <span class="stockValue">Stock Value<br>(NYSE: VTR)</span> <b class="stockprice">65.27</b> <span class="stockUpDown">Feb 06, 2018</span></span>
+								<span class="hidden-xs">
+									<span class="sep"></span>
+									<span class="display_inline_block vertical_align_middle news" >
+										<b>NEWS</b>: Humana Could Escalate the Insurance Arms Race... </span>
+									<!-- <span class="display_inline_block vertical_align_middle">
+										<marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" direction="left" id="marquee">Cieint atent iam nes autem quos eneces es /// Atm t nes autem</marquee>
+									</span> -->
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- newsHeader -->
+			<!-- newsHeader -->
+			<div class="newsSubHeader p-a-md visible-xs">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+							<p>
+								<span class="newsSub" >
+										<b>NEWS</b>: Humana Could Escalate the Insurance Arms Race Humana Could Escalate the Insurance Arms Race Humana Could Escalate the Insurance Arms Race</span>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- newsHeader -->
+
+
+
+
+
+
+
+		</header>
+
+
+		<!-- slider -->
+		<div class="bannerHeader m-b-md">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12  ">
+						<h1>REIT News</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- slider -->
+
+
+
+		<div class="p-t-lg p-b-md">
+			<div class="container">
+				<div class="row" style="margin-bottom:20px">
+					<ul id="tbs" class="nav nav-tabs" >
+						<li id="CompanyNewsTab" class="uib-tab nav-item ng-scope ng-isolate-scope active"  index="0" heading="Ventas News">
+							<a href="javascript:void(0)" class="nav-link ng-binding" uib-tab-heading-transclude="">Ventas News</a>
+						</li>
+						<li id="IndustryNewsTab" class="uib-tab nav-item ng-scope ng-isolate-scope" index="1" heading="Industry New">
+							<a href="javascript:void(0)"  class="nav-link ng-binding" uib-tab-heading-transclude="">Industry News</a>
+						</li>
+						<li id="CompetitiveNewsTab" class="uib-tab nav-item ng-scope ng-isolate-scope" index="1" heading="competitive">
+							<a href="javascript:void(0)"  class="nav-link ng-binding" uib-tab-heading-transclude="">Competitive News</a>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div id="CompanyNewsDiv" class="col-md-12 col-sm-12 col-xs-12   detailContentPage">
+
+
+						<table id="dataTable1">
+							<thead>
+								<th></th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClass1654BEBA26244651973D1A3ED8A42C71">
+													<p>​To take full advantage of the features and functionality of the new landing page, click on your name in the
+														upper right hand corner of the site and complete the About Me setup.​</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Reports Record 2014 4th Quarter Earnings </b>
+												</span>
+												<div class="ExternalClassAA587A5423114E4A88E52F15E220209D">
+													<p>​Press Release - CHICAGO &amp; NEW YORK--(BUSINESS WIRE)--Dec. 15, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas”)
+														and American Realty Capital Healthcare Trust, Inc. (NASDAQ: HCT) (“HCT”) today announced that the Securities
+														and Exchange Commission (“SEC”) has declared effective the registration statement on Form S-4, as amended,
+														relating to the previously announced pending merger between Ventas and HCT purs... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Completes Acquisition of HCT </b>
+												</span>
+												<div class="ExternalClass5D73ED2A9D0E4D36B5DCF877240B4920">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Dec. 10, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today that its Board of Directors increased the Company’s fourth quarter 2014 dividend by nine percent
+														to $0.79 per share. The dividend is payable in cash on December 31, 2014 to stockholders of record on December
+														22, 2014. For the past ten years, the compound annual growth rate in the C... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Donates $1 million to Greater Chicago Food Depository </b>
+												</span>
+												<div class="ExternalClass9DB27B88E9CA44338F6A3E722794630F">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Nov. 6, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today it is honored to have been selected by the National Association of Real Estate Investment Trusts
+														(NAREIT) as recipient of the 2014 Health Care “Leader in the Light Award,” the highest achievement in sustainability
+														for healthcare real estate companies in recognition of superior and s... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2015 Employee Charitable Fund Solicitation </b>
+												</span>
+												<div class="ExternalClassF46862CDF7D048F0887E47ABC9B15ECD">
+													<p>The Greater Chicago Food Depository received $1 million Thursday from Chicago-based real estate investment trust
+														Ventas, Inc. to support hunger-relief among older adults. </p>
+													<p>The investment, distributed over five years, will fund the Food Depository's more than 60 older adult programs,
+														including Choice Markets, which are food pantries for those ages 55 and above.</p>
+													<p>&quot;Ventas hop... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClass1654BEBA26244651973D1A3ED8A42C71">
+													<p>​To take full advantage of the features and functionality of the new landing page, click on your name in the
+														upper right hand corner of the site and complete the About Me setup.​</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Reports Record 2014 4th Quarter Earnings </b>
+												</span>
+												<div class="ExternalClassAA587A5423114E4A88E52F15E220209D">
+													<p>​Press Release - CHICAGO &amp; NEW YORK--(BUSINESS WIRE)--Dec. 15, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas”)
+														and American Realty Capital Healthcare Trust, Inc. (NASDAQ: HCT) (“HCT”) today announced that the Securities
+														and Exchange Commission (“SEC”) has declared effective the registration statement on Form S-4, as amended,
+														relating to the previously announced pending merger between Ventas and HCT purs... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Completes Acquisition of HCT </b>
+												</span>
+												<div class="ExternalClass5D73ED2A9D0E4D36B5DCF877240B4920">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Dec. 10, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today that its Board of Directors increased the Company’s fourth quarter 2014 dividend by nine percent
+														to $0.79 per share. The dividend is payable in cash on December 31, 2014 to stockholders of record on December
+														22, 2014. For the past ten years, the compound annual growth rate in the Co... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Donates $1 million to Greater Chicago Food Depository </b>
+												</span>
+												<div class="ExternalClass9DB27B88E9CA44338F6A3E722794630F">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Nov. 6, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today it is honored to have been selected by the National Association of Real Estate Investment Trusts
+														(NAREIT) as recipient of the 2014 Health Care “Leader in the Light Award,” the highest achievement in sustainability
+														for healthcare real estate companies in recognition of superior and s... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2015 Employee Charitable Fund Solicitation </b>
+												</span>
+												<div class="ExternalClassF46862CDF7D048F0887E47ABC9B15ECD">
+													<p>The Greater Chicago Food Depository received $1 million Thursday from Chicago-based real estate investment trust
+														Ventas, Inc. to support hunger-relief among older adults. </p>
+													<p>The investment, distributed over five years, will fund the Food Depository's more than 60 older adult programs,
+														including Choice Markets, which are food pantries for those ages 55 and above.</p>
+													<p>&quot;Ventas ho... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</tbody>
+						</table>
+
+						<div class="aside_content_border left width clearfix"></div>
+
+					</div>
+
+					<div id="IndustryNewsDiv" class="col-md-12 col-sm-12 col-xs-12   detailContentPage" style="display:none">
+
+
+						<table id="dataTable2">
+							<thead>
+								<th></th>
+							</thead>
+							<tbody>
+								
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Donates $1 million to Greater Chicago Food Depository </b>
+												</span>
+												<div class="ExternalClass9DB27B88E9CA44338F6A3E722794630F">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Nov. 6, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today it is honored to have been selected by the National Association of Real Estate Investment Trusts
+														(NAREIT) as recipient of the 2014 Health Care “Leader in the Light Award,” the highest achievement in sustainability
+														for healthcare real estate companies in recognition of superior and s... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2015 Employee Charitable Fund Solicitation </b>
+												</span>
+												<div class="ExternalClassF46862CDF7D048F0887E47ABC9B15ECD">
+													<p>The Greater Chicago Food Depository received $1 million Thursday from Chicago-based real estate investment trust
+														Ventas, Inc. to support hunger-relief among older adults. </p>
+													<p>The investment, distributed over five years, will fund the Food Depository's more than 60 older adult programs,
+														including Choice Markets, which are food pantries for those ages 55 and above.</p>
+													<p>&quot;Ventas ho... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClass1654BEBA26244651973D1A3ED8A42C71">
+													<p>​To take full advantage of the features and functionality of the new landing page, click on your name in the
+														upper right hand corner of the site and complete the About Me setup.​</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Reports Record 2014 4th Quarter Earnings </b>
+												</span>
+												<div class="ExternalClassAA587A5423114E4A88E52F15E220209D">
+													<p>​Press Release - CHICAGO &amp; NEW YORK--(BUSINESS WIRE)--Dec. 15, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas”)
+														and American Realty Capital Healthcare Trust, Inc. (NASDAQ: HCT) (“HCT”) today announced that the Securities
+														and Exchange Commission (“SEC”) has declared effective the registration statement on Form S-4, as amended,
+														relating to the previously announced pending merger between Ventas and HCT pursu... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Completes Acquisition of HCT </b>
+												</span>
+												<div class="ExternalClass5D73ED2A9D0E4D36B5DCF877240B4920">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Dec. 10, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today that its Board of Directors increased the Company’s fourth quarter 2014 dividend by nine percent
+														to $0.79 per share. The dividend is payable in cash on December 31, 2014 to stockholders of record on December
+														22, 2014. For the past ten years, the compound annual growth rate in the Co... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Donates $1 million to Greater Chicago Food Depository </b>
+												</span>
+												<div class="ExternalClass9DB27B88E9CA44338F6A3E722794630F">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Nov. 6, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today it is honored to have been selected by the National Association of Real Estate Investment Trusts
+														(NAREIT) as recipient of the 2014 Health Care “Leader in the Light Award,” the highest achievement in sustainability
+														for healthcare real estate companies in recognition of superior and s... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2015 Employee Charitable Fund Solicitation </b>
+												</span>
+												<div class="ExternalClassF46862CDF7D048F0887E47ABC9B15ECD">
+													<p>The Greater Chicago Food Depository received $1 million Thursday from Chicago-based real estate investment trust
+														Ventas, Inc. to support hunger-relief among older adults. </p>
+													<p>The investment, distributed over five years, will fund the Food Depository's more than 60 older adult programs,
+														including Choice Markets, which are food pantries for those ages 55 and above.</p>
+													<p>&quot;Ventas ho... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</tbody>
+						</table>
+
+						<div class="aside_content_border left width clearfix"></div>
+
+					</div>
+
+					<div id="CompetitiveNewsDiv" class="col-md-12 col-sm-12 col-xs-12   detailContentPage" style="display:none">
+
+
+						<table id="dataTable3">
+							<thead>
+								<th></th>
+							</thead>
+							<tbody>
+								
+								
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClass1654BEBA26244651973D1A3ED8A42C71">
+													<p>​To take full advantage of the features and functionality of the new landing page, click on your name in the
+														upper right hand corner of the site and complete the About Me setup.​</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Reports Record 2014 4th Quarter Earnings </b>
+												</span>
+												<div class="ExternalClassAA587A5423114E4A88E52F15E220209D">
+													<p>​Press Release - CHICAGO &amp; NEW YORK--(BUSINESS WIRE)--Dec. 15, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas”)
+														and American Realty Capital Healthcare Trust, Inc. (NASDAQ: HCT) (“HCT”) today announced that the Securities
+														and Exchange Commission (“SEC”) has declared effective the registration statement on Form S-4, as amended,
+														relating to the previously announced pending merger between Ventas and HCT purs... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Completes Acquisition of HCT </b>
+												</span>
+												<div class="ExternalClass5D73ED2A9D0E4D36B5DCF877240B4920">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Dec. 10, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today that its Board of Directors increased the Company’s fourth quarter 2014 dividend by nine percent
+														to $0.79 per share. The dividend is payable in cash on December 31, 2014 to stockholders of record on December
+														22, 2014. For the past ten years, the compound annual growth rate in the C... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - Ventas Donates $1 million to Greater Chicago Food Depository </b>
+												</span>
+												<div class="ExternalClass9DB27B88E9CA44338F6A3E722794630F">
+													<p>​Press Release - CHICAGO--(BUSINESS WIRE)--Nov. 6, 2014-- Ventas, Inc. (NYSE: VTR) (“Ventas” or the “Company”)
+														said today it is honored to have been selected by the National Association of Real Estate Investment Trusts
+														(NAREIT) as recipient of the 2014 Health Care “Leader in the Light Award,” the highest achievement in sustainability
+														for healthcare real estate companies in recognition of superior and s... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2015 Employee Charitable Fund Solicitation </b>
+												</span>
+												<div class="ExternalClassF46862CDF7D048F0887E47ABC9B15ECD">
+													<p>The Greater Chicago Food Depository received $1 million Thursday from Chicago-based real estate investment trust
+														Ventas, Inc. to support hunger-relief among older adults. </p>
+													<p>The investment, distributed over five years, will fund the Food Depository's more than 60 older adult programs,
+														including Choice Markets, which are food pantries for those ages 55 and above.</p>
+													<p>&quot;Ventas ho... <a href="">More</a></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2016 First Quarter Employee Business Update </b>
+												</span>
+												<div class="ExternalClass71A7F679AA2A48FDA13D84898446109A">
+													<p>The first 2015 Employee Charitable Fund soliciation period ends March 30th. Eligible employees may request grands
+														up to $2,000. The second Employee Charitable Fund solicitation ​will begin August 17th.</p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class=" display_inline_block width static newsMain">
+											<p class="ng-binding">
+												<span class="display_block green_content">
+													<b class="ng-binding">Monday, January 3, 2018 - 2014 Annual Year-End Performance Review Process Has Begun </b>
+												</span>
+												<div class="ExternalClassC63E826F6CC3428B96D8F2D3906685C5">
+													<p>
+														<span style="">Ventas is transitioning to a new, more robust HR and Payroll system called Workday which will replace Paycor.</span>
+													</p>
+													<p>
+														<span style="">Thisintuitive system will make it easier and faster to complete tasks and access information from your computer
+															or mobile device including:</span>
+													</p>
+													<ul>
+														<li>
+															<span>View or change personal information</span>
+														</li>
+														<li>
+															<span>Check benefits</span>
+														</li>
+														<li>
+															<span>Enter time</span>
+														</li>
+														<li>
+															<span>Request time off</span>
+														</li>
+														<li>
+															<span>View organizational charts</span>
+														</li>
+													</ul>
+													<p>
+														<span style="">Training on Workday will be offered in early-June to help prepare you for the common tasks and activities you
+															will complete in the system, with a full transition to Workday in mid-June. HR will keep you posted on key
+															dates as the date approaches to the company-wide launch.</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;">For more information, please click
+																<a href="https://70039ed7fd3a348edfbf-0359b9952533f4310a6bd98727d7be55.ssl.cf2.rackcdn.com/Workday_28_Video.mp4">here</a>to watch a brief overview video of the Workday platform.</span>
+														</span>
+													</p>
+													<p>
+														<span style="">
+															<span style="color:#222222;font-size:10.5pt;"></span>
+														</span>
+													</p>
+													<p></p>
+												</div>
+											</p>
+										</div>
+									</td>
+								</tr>
+
+							</tbody>
+						</table>
+
+						<div class="aside_content_border left width clearfix"></div>
+
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<!-- <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 col-sm-12 text-center">
+
+						<ul class="display_inline_block footer_nv">
+							<li>
+								<a href="#">Privacy & Security</a>
+							</li>
+
+							<li>
+								<a href="#">Terms & Conditions</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</footer> -->
+		<!-- footer -->
+
+	</div>
+	<!-- wrapper -->
+
+
+
+
+
+
+
+	<!-- main.js -->
+	<script src="js/main.js"></script>
+	<!-- main.js -->
+</body>
+
+</html>
